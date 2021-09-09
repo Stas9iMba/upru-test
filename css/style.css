@@ -11,7 +11,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(/images/bg.png);
+  background-image: url(../images/bg.png);
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -26,7 +26,7 @@ body {
 
 .footer {
   padding: 100px;
-  background-image: url(/images/footer.png);
+  background-image: url(../images/footer.png);
 }
 
 .container {
@@ -80,7 +80,7 @@ body {
   bottom: 0;
   width: 16px;
   height: 14px;
-  background-image: url(/images/icons/fish.svg);
+  background-image: url(../images/icons/fish.svg);
   background-position: center center;
   background-size: cover;
   background-size: cover;
@@ -91,18 +91,18 @@ body {
 }
 
 .nav__link:hover::before {
-  background-image: url(/images/icons/fish-color.svg);
+  background-image: url(../images/icons/fish-color.svg);
 }
 
 .nav__link-even::before {
   width: 20px;
   height: 13px;
   bottom: 1px;
-  background-image: url(/images/icons/turtle.svg);
+  background-image: url(../images/icons/turtle.svg);
 }
 
 .nav__link-even:hover::before {
-  background-image: url(/images/icons/turtle-color.svg);
+  background-image: url(../images/icons/turtle-color.svg);
 }
 
 .nav__link--active {
@@ -110,7 +110,7 @@ body {
 }
 
 .nav__link--active::before {
-  background-image: url(/images/icons/fish-color.svg);
+  background-image: url(../images/icons/fish-color.svg);
 }
 
 .team__title {
@@ -131,7 +131,7 @@ body {
   bottom: 4px;
   width: 28px;
   height: 23px;
-  background-image: url(/images/icons/crown.svg);
+  background-image: url(../images/icons/crown.svg);
   background-size: cover;
 }
 
@@ -377,12 +377,12 @@ body {
 }
 
 .slider .slick-next {
-  background-image: url(/images/icons/arrow-right.svg);
+  background-image: url(../images/icons/arrow-right.svg);
   right: 220px;
 }
 
 .slider .slick-prev {
-  background-image: url(/images/icons/arrow-left.svg);
+  background-image: url(../images/icons/arrow-left.svg);
   left: 220px;
 }
 
@@ -410,7 +410,7 @@ body {
   height: 14px;
   left: 14px;
   top: 13px;
-  background-image: url(/images/icons/user.svg);
+  background-image: url(../images/icons/user.svg);
   background-size: cover;
 }
 
@@ -454,7 +454,7 @@ body {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(/images/icons/phone.svg);
+  background-image: url(../images/icons/phone.svg);
 }
 
 .form__box-input {
@@ -478,7 +478,7 @@ body {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-image: url(/images/icons/geo.svg);
+  background-image: url(../images/icons/geo.svg);
 }
 
 .form__box-wrapper::after {
@@ -531,7 +531,7 @@ body {
   content: "";
   width: 16px;
   height: 16px;
-  background-image: url(/images/icons/check.svg);
+  background-image: url(../images/icons/check.svg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
