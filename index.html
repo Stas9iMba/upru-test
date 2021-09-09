@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VIP тренинг</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/css/ion.rangeSlider.min.css"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="#">КАРАСЬ</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link-even" href="#">СЕМГА</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">КАРП</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link-even" href="#">ОКУНЬ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="team">
+      <div class="container">
+        <h1 class="team__title">VIP тренинг</h1>
+        <div class="team__items">
+          <div class="team__item">
+            <img class="team__photo" src="images/photo1.png" alt="Президент" />
+            <div class="team__info">
+              <p>Тренинг</p>
+              <p>Президента</p>
+              <p class="team__name">Сергея Булавченко</p>
+            </div>
+          </div>
+          <div class="team__item">
+            <img class="team__photo" src="images//photo2.png" alt="Вице-президент" />
+            <div class="team__info">
+              <p>Тренинг</p>
+              <p>Вице-президента</p>
+              <p class="team__name">Елены Данчевой</p>
+            </div>
+          </div>
+        </div>
+        <blockquote class="team__blockquote">
+          <p class="team__blockquote-text">"Чтобы стать миллиардером, нужна прежде всего УДАЧА, значительная доза
+            ЗНАНИЙ, огромная РАБОТОСПОСОБНОСТЬ, но самое главное – вы должны иметь МЕНТАЛИТЕТ МИЛЛИАРДЕРА – это такое
+            состояние ума, при котором вы сосредотачиваете все свои знания, все свои умения, все свои навыки на
+            достижении поставленной цели"</p>
+          <cite class="team__blockquote-author">Пол Гетти</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="info">
+      <div class="container">
+        <div class="info__inner">
+          <div class="info__left">
+            <div class="info__left-top">
+              <h3 class="slider__title">Итак, господа будущие миллиардеры! Вы готовы к Большому Успеху?</h3>
+              <div class="slider">
+                <div class="slider__item">
+                  <p class="slider__text"> <span>Знания</span> – это то, что вы получите на тренинге Президента – именно
+                    те знания,
+                    которые нужны вам для успеха в Gloryon, здесь и сейчас!
+                  </p>
+                </div>
+                <div class="slider__item">
+                  <p class="slider__text"> <span>Удача</span> уже в ваших руках – вы в Gloryon, и в ы участник
+                    Корпоративной Конвенции!</p>
+                  <p class="slider__text"><span>Работоспособность</span>– ваше качество, ведь вы выполнили условия
+                    участия в VIP-тренинге для будущих ардеров!</p>
+                </div>
+                <div class="slider__item">
+                  <p class="slider__text"> <span>Менталитет миллиардера</span> – это сила фокуса! Вы тоже станете
+                    обладателем этого
+                    секрета. Вы получите его из рук человека, который уже добился в жизни самых грандиозных успехов – и
+                    вместе с вами идет к еще более амбициозным целям!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="info__form">
+              <div class="info__form-inner">
+                <h2 class="info__form-title">Рыбный заголовок</h2>
+                <form class="form" action="">
+                  <div class="form__name">
+                    <input class="form__input" type="text" name="name" placeholder="Ваше имя" required>
+                  </div>
+                  <div class="form__box">
+                    <input class="form__box-input" type="tel" name="mobile" pattern="[1-9]{1}[0-9]{9}" placeholder="Телефон" required>
+                    <div class="form__box-wrapper">
+                      <select class="form__box-select" required>
+                        <option value="" disabled selected>Выберите страну</option>
+                        <option value="1">России</option>
+                        <option value="2">Украина</option>
+                      </select>
+                    </div>
+                  </div>
+                  <form class="filter-price__form" action="#">
+                    <input class="filter-price__input" type="text" data-min="0" data-max="350" data-from="130"
+                      data-to="217">
+                    <label class="filter-price__label">
+                      <span>Price range:
+                        $<span class="filter-price__from"></span>-<span class="filter-price__to"></span>
+                      </span>
+                    </label>
+                  </form>
+                  <label class="form__label">
+                    <input class="form__label-input" type="checkbox" checked>
+                    <span class="form__label-checkbox"></span>
+                    <span class="form__label-text">Ознаколмлен со всем</span>
+                  </label>
+                  <button class="form__btn" type="submit">Отправить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="info__aside">
+            <h3 class="info__aside-title">Человек, который создал «Интерсетевую империю Gloryon»!</h3>
+            <ul class="info__aside-list">
+              <li class="info__aside-item">Два высших образования: медицинское (врач-хирург) и экономическое
+                (экономический факультет НГУ).</li>
+              <li class="info__aside-item">Трехлетний курс стратегического менеджмента в Вашингтонском университете.
+              </li>
+              <li class="info__aside-item">Создатель первого в России интерсетевого Холдинга Gloryon с уникальной
+                моделью,
+                совмещающей прямые продажи, интернет-коммерцию и бизнес социальных сетей. 12 лет успешного развития
+                Gloryon – доказательство непревзойденного бизнес-таланта!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.1/js/ion.rangeSlider.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

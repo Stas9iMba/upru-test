@@ -1,0 +1,134 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 948px;
+        padding: 0 10px;
+    }
+
+    .info__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .info__left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        order: 1;
+    }
+
+    .info__aside {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team__items::after {
+        display: none;
+    }
+
+    .team__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .team__item::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 18px;
+        width: 100%;
+        background-color: #f52f4e;
+    }
+
+    .info__left-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    .form__box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .info__form {
+        width: 100%;
+    }
+
+    .form__box-input {
+        margin-right: 0;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .form__box::before {
+        top: 22%;
+    }
+
+    .form__box-select {
+        max-width: 100%;
+        padding: 13px 10px 12px 40px;
+    }
+
+    .form__box-wrapper {
+        width: 100%;
+    }
+
+    .slider .slick-next {
+        right: 40px;
+    }
+
+    .slider .slick-prev {
+        left: 40px;
+    }
+
+    .slider .slick-next,
+    .slider .slick-prev {
+        bottom: 15px;
+    }
+
+    .slider__item {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .info__form {
+        padding: 28px 11px 26px;
+    }
+}
+
+@media (max-width: 425px) {
+    .team__info {
+        right: 11px;
+        top: 90px;
+        font-size: 12px;
+        text-align: right;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav__item:not(:last-child) {
+        margin-right: 16px;
+    }
+}
